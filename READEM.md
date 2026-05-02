@@ -133,7 +133,7 @@ while running:
 
     # EMOTE WIN
     if win:
-        text = font.render("😎 WIN", True, (255, 255, 255))
+        text = font.render("WIN", True, (255, 255, 255))
         screen.blit(text, (player_pos[0] - 40, player_pos[1] - 80))
 
         if pygame.time.get_ticks() - win_time > 2000:
